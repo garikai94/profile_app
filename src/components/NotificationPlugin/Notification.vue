@@ -98,7 +98,6 @@ export default {
   .alert {
     width: auto !important;
     margin: 0 10px;
-
     &.left {
       left: 0 !important;
     }
@@ -110,13 +109,11 @@ export default {
     }
   }
 }
-
 .alert {
   z-index: 100;
   cursor: pointer;
   position: absolute;
   width: 41%;
-
   &.center {
     left: 0;
     right: 0;

@@ -15,7 +15,7 @@ const routes = [
     component: DashboardLayout,
     redirect: "/dashboard",
     children: [
-      {
+     {
         path: "dashboard",
         name: "Dashboard",
         component: Dashboard,
@@ -62,4 +62,4 @@ const routes = [
   },
 ];
 
-export default routes;
+export default routes

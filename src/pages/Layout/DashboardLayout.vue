@@ -7,11 +7,24 @@
       :sidebar-background-image="sidebarBackgroundImage"
     >
       <mobile-menu slot="content"></mobile-menu>
-      <sidebar-link to="/dashboard">
-        <md-icon>dashboard</md-icon>
-        <p>Dashboard</p>
+      <sidebar-link v-scroll-to="'#education'" to="/user">
+        <md-icon>school</md-icon>
+        <p>Education</p>
       </sidebar-link>
-      <sidebar-link to="/user">
+      <sidebar-link v-scroll-to="'#portfolio'" to="user">
+        <md-icon>portfolio</md-icon>
+        <p>Portfolio</p>
+      </sidebar-link>
+      <sidebar-link v-scroll-to="'#about'" to="user">
+        <md-icon>about</md-icon>
+        <p>About</p>
+      </sidebar-link>
+      <sidebar-link v-scroll-to="'#contact'" to="user">
+        <md-icon>contact</md-icon>
+        <p>Contact</p>
+      </sidebar-link>
+
+     <!-- <sidebar-link to="/user">
         <md-icon>person</md-icon>
         <p>User Profile</p>
       </sidebar-link>
@@ -38,7 +51,7 @@
       <sidebar-link to="/upgrade" class="active-pro">
         <md-icon>unarchive</md-icon>
         <p>Upgrade to PRO</p>
-      </sidebar-link>
+      </sidebar-link>-->
     </side-bar>
 
     <div class="main-panel">
@@ -58,24 +71,24 @@
 </template>
 
 <script>
-import TopNavbar from "./TopNavbar.vue";
+//import TopNavbar from "./TopNavbar.vue";
 import ContentFooter from "./ContentFooter.vue";
 import DashboardContent from "./Content.vue";
 import MobileMenu from "@/pages/Layout/MobileMenu.vue";
-import FixedPlugin from "./Extra/FixedPlugin.vue";
+//import FixedPlugin from "./Extra/FixedPlugin.vue";
 
 export default {
   components: {
-    TopNavbar,
+    /*TopNavbar,*/
     DashboardContent,
     ContentFooter,
     MobileMenu,
-    FixedPlugin,
+   /* FixedPlugin,*/
   },
   data() {
     return {
-      sidebarBackground: "green",
-      sidebarBackgroundImage: require("@/assets/img/sidebar-2.jpg"),
+      sidebarBackground: "silver",
+      sidebarBackgroundImage: require("@/assets/img/faces/pc.jpg"),
     };
   },
 };

@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer">
+  <header class="header">
     <div class="container">
       <nav>
         <ul>
@@ -24,7 +24,7 @@
         >, made with <i class="fa fa-heart heart"></i> for a better web
       </div>
     </div>
-  </footer>
+  </header>
 </template>
 <script>
 export default {};

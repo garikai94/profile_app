@@ -17,6 +17,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import App from "./App";
+import VueScrollTo from 'vue-scrollto';
+
 
 // router setup
 import routes from "./routes/routes";
@@ -44,7 +46,8 @@ Vue.use(MaterialDashboard);
 Vue.use(GlobalComponents);
 Vue.use(GlobalDirectives);
 Vue.use(Notifications);
-
+Vue.use(VueScrollTo);
+//Vue.use(Headers);
 /* eslint-disable no-new */
 new Vue({
   el: "#app",
