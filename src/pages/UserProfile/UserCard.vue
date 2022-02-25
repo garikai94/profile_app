@@ -10,7 +10,7 @@
       <p class="card-description">
          To focus on the visible at the expense of the essential is irresponsible....
         </p>
-      <md-button class="md-round md-success">Follow</md-button>
+     <!--<md-button class="md-round md-success">Follow</md-button>-->
     </md-card-content>
   </md-card>
 </template>

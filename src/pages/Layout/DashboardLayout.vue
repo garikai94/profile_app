@@ -20,9 +20,10 @@
         <p>About</p>
       </sidebar-link>
       <sidebar-link v-scroll-to="'#contact'" to="user">
-        <md-icon>contact</md-icon>
+        <md-icon>phone</md-icon>
         <p>Contact</p>
       </sidebar-link>
+     
 
      <!-- <sidebar-link to="/user">
         <md-icon>person</md-icon>
@@ -72,7 +73,7 @@
 
 <script>
 //import TopNavbar from "./TopNavbar.vue";
-import ContentFooter from "./ContentFooter.vue";
+//import ContentFooter from "./ContentFooter.vue";
 import DashboardContent from "./Content.vue";
 import MobileMenu from "@/pages/Layout/MobileMenu.vue";
 //import FixedPlugin from "./Extra/FixedPlugin.vue";
@@ -81,7 +82,7 @@ export default {
   components: {
     /*TopNavbar,*/
     DashboardContent,
-    ContentFooter,
+   /* ContentFooter,*/
     MobileMenu,
    /* FixedPlugin,*/
   },

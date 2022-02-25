@@ -18,6 +18,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import App from "./App";
 import VueScrollTo from 'vue-scrollto';
+import MenuIcon from 'vue-material-design-icons/Menu.vue';
 
 
 // router setup
@@ -47,7 +48,7 @@ Vue.use(GlobalComponents);
 Vue.use(GlobalDirectives);
 Vue.use(Notifications);
 Vue.use(VueScrollTo);
-//Vue.use(Headers);
+Vue.component('menu-icon', MenuIcon);
 /* eslint-disable no-new */
 new Vue({
   el: "#app",

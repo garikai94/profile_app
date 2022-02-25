@@ -1,5 +1,5 @@
 <template>
-  <form>
+ <form>
     <md-card>
       <md-card-header :data-background-color="dataBackgroundColor">
         <h4 class="title">Edit Profile</h4>
